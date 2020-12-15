@@ -1,0 +1,24 @@
+<html>             
+<head>
+<TITLE></TITLE>
+
+</head>
+
+<body Bgcolor=white> 
+          
+<table width="750" border=0 align="center" bgcolor=white>
+
+
+<tr><td bordercolor=white>
+  
+           <img src="vanessas-letter.jpg">
+   
+
+</TD>
+  </tr>
+
+</table>
+</BODY>
+</HTML>
+
+

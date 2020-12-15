@@ -1,0 +1,12 @@
+Dec 15 11:42:43 10.71.60.0 tmp80695039-8787 Connection from 10.71.60.0 port 55544 on 74.208.58.84 port 22
+Dec 15 11:42:43 10.71.60.0 tmp80695039-8787 Accepted password for tmp80695039-8787 from 10.71.60.0 port 55544 ssh2
+Dec 15 11:42:44 10.71.60.0 tmp80695039-8787 Starting session: subsystem 'sftp' for tmp80695039-8787 from 10.71.60.0 port 55544 id 0
+Dec 15 11:42:44 10.71.60.0 tmp80695039-8787 session opened for local user tmp80695039-8787 from [10.71.60.0]
+Dec 15 11:44:31 10.71.60.0 tmp80695039-5088 Connection from 10.71.60.0 port 20328 on 74.208.58.84 port 22
+Dec 15 11:44:31 10.71.60.0 tmp80695039-5088 Accepted password for tmp80695039-5088 from 10.71.60.0 port 20328 ssh2
+Dec 15 11:44:32 10.71.60.0 tmp80695039-8787 open "/index.htm" flags READ mode 0666
+Dec 15 11:44:32 10.71.60.0 tmp80695039-8787 close "/index.htm" bytes read 8110 written 0
+Dec 15 11:44:32 10.71.60.0 tmp80695039-8787 [10.71.60.0|get|0|8110|0|0|0|2f696e6465782e68746d|]
+Dec 15 11:46:37 10.71.60.0 tmp80695039-8787 open "/buttons.txt" flags READ mode 0666
+Dec 15 11:46:38 10.71.60.0 tmp80695039-8787 close "/buttons.txt" bytes read 870 written 0
+Dec 15 11:46:38 10.71.60.0 tmp80695039-8787 [10.71.60.0|get|0|870|0|0|0|2f627574746f6e732e747874|]

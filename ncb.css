@@ -1,0 +1,83 @@
+@charset "UTF-8";
+#main_container {
+	height: 1060px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: beige;
+}
+#left_column {
+	background-color: beige;
+	width: 350px;
+	padding-left: 10px;
+
+	padding-right: 10px;
+	float: left;
+}
+#center_column {
+	background-color: beige;
+	width: 250px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	float: left;
+}
+#right_column {
+	background-color: beige;
+	width: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	float: right;
+}
+#left_column2 {
+	background-color: beige;
+	width: 300px;
+	padding-left: 10px;
+
+	padding-right: 10px;
+	float: left;
+}
+#center_column2 {
+	background-color: beige;
+	width: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	float: left;
+}
+#right_column2 {
+	background-color: beige;
+	width: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	float: right;
+}
+header {
+	background-color: beige;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+#footer {
+	height:60px;
+	background-color: beige;
+	clear: both;
+	padding-left: 5px;
+}
+body {
+	color: #5a2d16;
+	background-color: beige;
+}
+a:link {
+	color: #5a2d16;
+}
+a:vlink {
+	color: #5a2d16;
+}
+a:alink {
+	color: #5a2d16;
+}
+

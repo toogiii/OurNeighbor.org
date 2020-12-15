@@ -1,0 +1,71 @@
+WebStyle
+Version : 1.2 (1.201) Dec 11 2001
+WixPath : C:\Program Files (x86)\Xara\Webstyle 1.2\templates/buttons/FractalButNew.wix
+WixFileName : templates/buttons/FractalButNew.wix
+Template : 0
+Text : Become a Resident
+Font : Arial
+GraphicType : 0
+Bold : 0
+Italic : 0
+TextAspectRatio : 100
+DrawingWidth : 0
+DrawingHeight : 0
+PixelWidth : 249
+PixelHeight : 38
+AspectLock : 1
+ExportType : 1
+ExportQuality : 0
+ExportDither : 0
+ExportPalette : 1
+ExportBpp : 4
+TransThreshold : 254
+JPEGQuality : 80
+GIFPaletteSize : 16
+Transparent : 1
+Interlaced : 0
+ModelType : 2
+DisplayType : 1
+InputType : 2
+NumberOfColours : 4
+CurrentColourIndex : 2
+SimpleColourIndexMax : 4
+TexReplacementColour : 16711680
+TexReplacementFlag : 0
+ColProp-Value : 52326
+ColProp-Name : BackGround
+ColProp-Question : Background color
+ColProp-WixIndex : 0
+ColProp-Value : 16777215
+ColProp-Name : Text
+ColProp-Question : Text color
+ColProp-WixIndex : 0
+ColProp-Value : 13056
+ColProp-Name : Button2
+ColProp-Question : Button color 2
+ColProp-WixIndex : 1
+ColProp-Value : 13056
+ColProp-Name : Button1
+ColProp-Question : Button color 1
+ColProp-WixIndex : 2
+NumberOfTextures : 1
+CurrentTextureIndex : 0
+TextureProp-FileName : 
+TextureProp-Name : 
+TextureProp-Question : Background
+TextureProp-WixIndex : 0
+ShadowDarkness01 : 0.34
+ShadowBlurrinessPixels : 5
+ShadowPositionXPixels : 4
+ShadowPositionYPixels : 4
+ShadowPositionXScale : 0.105263
+ShadowPositionYScale : 0.105263
+ShadowTiltDegrees : 0
+ShadowScale01 : 1
+ShadowType : 1
+ShadowOn : 1
+ShadowColour : 39219
+ColourButtonState : 0
+TextButtonState : 0
+HaveGotConstrainedObject : 1
+CurrentConstrainedWidth : 0
