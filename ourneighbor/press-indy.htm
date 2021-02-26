@@ -9,28 +9,34 @@
 <!-- InstanceEndEditable -->
 <style type="text/css"> 
 <!-- 
-body  {
-	font: 100% Verdana, Arial, Helvetica, sans-serif;
-	background: white;
-	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
-	padding: 0;
-	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
-	color: #000000;
+  body, p {
+  margin: 0;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #005539;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
 }
 .twoColLiqRtHdr #container { 
-	width:65%;  /* this will create a container 80% of the browser width */
-	background: white;
-	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
-
-	text-align: left; /* this overrides the text-align: center on the body element. */
+	width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
 } 
 .twoColLiqRtHdr #header { 
+  display: block;
 	background: white; 
-	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	padding-right: 0.75rem;
+  padding-left: 0.75rem;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
 } 
 .twoColLiqRtHdr #header h1 {
-	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
-	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+	padding-right: 0.75rem;
+  padding-left: 0.75rem; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
 
 /* Tips for sidebar1:
@@ -47,8 +53,8 @@ body  {
 	margin-right: 10px;
 }
 .twoColLiqRtHdr #sidebar1 h3, .twoColLiqRtHdr #sidebar1 p {
-	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
-	margin-right: 10px;
+	margin-left: 20px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 20px;
 }
 
 /* Tips for mainContent:
@@ -81,7 +87,7 @@ body  {
 .clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
 	clear:both;
     height:0;
-    font-size: 1px;
+    font-size: 2px;
     line-height: 0px;
 }
 a:link {

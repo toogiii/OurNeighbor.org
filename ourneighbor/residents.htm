@@ -15,6 +15,110 @@
 <!-- InstanceBeginEditable name="head" -->
 
 <!-- InstanceEndEditable -->
+<style type="text/css"> 
+<!-- 
+  body, p {
+  margin: 0;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #005539;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+}
+.twoColLiqRtHdr #container { 
+	width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+} 
+.twoColLiqRtHdr #header { 
+  display: block;
+	background: white; 
+	padding-right: 0.75rem;
+  padding-left: 0.75rem;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColLiqRtHdr #header h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+	padding-right: 0.75rem;
+  padding-left: 0.75rem; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. since we are working in percentages, it's best not to use padding on the sidebar. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+2. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColLiqRtHdr #sidebar1 p" rule.
+3. Since Explorer calculates widths after the parent element is rendered, you may occasionally run into unexplained bugs with percentage-based columns. If you need more predictable results, you may choose to change to pixel sized columns.
+*/
+.twoColLiqRtHdr #sidebar1 {
+	float: right; /* since this element is floated, a width must be given */
+	width: 20%; 
+	background: white; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div  */
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+.twoColLiqRtHdr #sidebar1 h3, .twoColLiqRtHdr #sidebar1 p {
+	margin-left: 20px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 20px;
+}
+
+/* Tips for mainContent:
+1. the space between the mainContent and sidebar1 is created with the right margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this right margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+2. to avoid float drop at a supported minimum 800 x 600 resolution, elements within the mainContent div should be 430px or smaller (this includes images).
+3. in the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs.
+*/
+.twoColLiqRtHdr #mainContent { 
+	margin: 0 26% 0 10px; /* the left margin should mirror the margin on the header and footer for proper alignment. */
+} 
+
+.twoColLiqRtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:white; 
+} 
+.twoColLiqRtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 2px;
+    line-height: 0px;
+}
+a:link {
+	color: #035338;
+}
+a:vlink {
+	color: #035338;
+}
+a:alink {
+	color: #035338;
+}
+
+--> 
+</style>
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColLiqRtHdr #sidebar1 { padding-top: 30px; }
+.twoColLiqRtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<!-- InstanceParam name="main content" type="text" value="mainContent" -->
 </HEAD>
 
 <body   alink="#035338" link="#035338" vlink="#035338">
